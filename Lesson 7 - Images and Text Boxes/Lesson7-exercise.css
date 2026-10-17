@@ -1,0 +1,149 @@
+/* 
+  Exercise 7a: Load image, set width to 200px and add rounded corners
+*/
+  .thumbnail_cat1 { 
+    width: 200px;
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  /*
+    Exercise 7b: Load image, make the image a square, centre the image within the square
+  */
+  .thumbnail_cat2 {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover; /* Avoids stretching/ squashing of images
+                           by croping (maintaining aspect ratio) */
+    object-position: center; /* Crops image from the center */
+  }
+
+  /* 
+    7c. Make the image a circle (using border radius)
+  */
+  .thumbnail_cat3 {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 50%; /* Makes the image a circle */
+  }
+
+  /* 
+    Challange exercises
+  */
+
+  /* 
+    7d. search bar, with rounded corners and placeholder text 
+  */
+  .search-bar-7d {
+    height: 30px;
+    width: 200px;
+
+    border: thin solid rgb(155, 155, 155);
+    border-radius: 5px;
+
+    padding-left: 7px; /* Padding to ensure text doesn't touch the left edge */
+  }
+
+  /* 
+    7e. text box with shadow (no border) 
+  */
+  .search-bar-7e {
+    height: 30px;
+    width: 200px;
+
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(155, 155, 155, 0.7);
+
+    padding-left: 7px; /* Padding to ensure text doesn't touch the left edge */
+  }
+
+  .challange-text {
+    color: rgb(201, 0, 0)
+  }
+
+  /*
+    7f LinkedIn SignUp
+  */
+
+  .linkedin-text {
+    font-size: 8px;
+    font-family: roboto, sans-serif;
+    font-weight: 2px;
+
+    color: rgb(120, 120, 120);
+    margin-bottom: 5px;
+    }
+
+    .linkedin-signup-email-textbox {
+      height: 25px;
+      width: 287px;
+
+      border-style: solid;
+      border-width: 1.5px;
+      border-color: rgba(120, 120, 120, 0.7);
+          
+      border-radius: 5px;
+
+      padding-left: 7px; /* Padding to ensure text doesn't touch the left edge */
+    }
+
+    .linkedin-button {
+      height: 30px;
+      width: 290px;
+
+      background-color: rgb(39, 106, 195);
+      color: white;
+
+      border-style: none;
+      border-radius: 15px;
+
+      font-size: 15px;
+
+      margin-left: 5px;
+    }
+
+    .twitter-thumbnail {
+      height: 25px;
+      width: 25px;
+      
+      object-fit: cover;
+      
+      border-radius: 50%;
+
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    .twitter-textbox {
+      height: 25 px;
+      width: 170px;
+
+      font-family: roboto, sans-serif;
+      font-size: 11.5px;
+
+      border: none;
+      margin-right: 5px;
+
+      vertical-align: middle;
+
+    }
+
+    .tweet-button {
+      height: 25px;
+      width: 60px;
+
+      background-color: rgb(0, 162, 255);
+      color: white;
+
+      border: none;
+      border-radius: 13px;
+
+      font-family: roboto, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+    }

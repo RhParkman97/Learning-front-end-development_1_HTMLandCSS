@@ -1,0 +1,137 @@
+.headings {
+  margin-top: 20px;
+  margin-bottom: 7px;
+
+}
+
+.text-box-name-8a {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.text-box-email-8a {
+  display: block;
+}
+
+.thanks-message-8b {
+  display: inline-block;
+  
+  width: 200px;
+  margin-top: 0px;
+  margin-right:12px;
+}
+
+.yes-button-8b, .no-button-8b {
+  height: 20px;
+
+  margin-right: 3px;
+  
+  vertical-align: 125%;
+}
+
+.google-logo {
+  display: block;
+
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  
+}
+
+.google-search-bar {
+  display: block;
+
+  height: 25px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-left: 10px;
+
+  border-style: solid;
+  border-color: rgba(150, 150, 150, 0.15);
+  border-radius: 15px;
+}
+
+.challenge-heading {
+  color: rgb(206, 0, 0);
+
+  margin-top: 30px;
+}
+
+.first-name-textbox-8d, .last-name-textbox-8d, .email-textbox-8d, .SignUp-button-8d {
+  height: 25px;
+  width: 265px;
+
+  border-style: solid;
+  border-color: rgba(150, 150, 150, 0.7);
+  border-radius: 8px;
+  border-width: 1px;
+
+  margin-bottom: 7px;
+  padding-left: 5px;
+
+}
+
+.first-name-textbox-8d {
+  width: 125px;
+  margin-right: 2px;
+}
+
+.last-name-textbox-8d {
+  width: 125px;
+}
+
+.email-textbox-8d {
+  display: block;
+}
+
+.SignUp-button-8d {
+  height: 35px;
+  width: 273px;
+  background-color: rgb(50, 120, 225);
+
+  color: white;
+  font-weight: bold;
+}
+
+.pickup-location-textbox-8e, .destination-textbox-8e {
+  height: 30px;
+  width: 300px;
+  
+  background-color: rgb(230, 230, 230);
+  border: none;
+
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.pickup-location-textbox-8e {
+  display: block;
+}
+
+.destination-textbox-8e {
+  display: block;
+}
+
+.request-button-8e, .schedule-button-8e {
+  height: 35px;
+  width: 125px;
+
+  border: none;
+
+  margin-top: 5px;
+}
+
+.request-button-8e {
+  background-color: black;
+  color: whitesmoke;
+
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.schedule-button-8e {
+  background-color: rgb(215, 215, 215);
+}

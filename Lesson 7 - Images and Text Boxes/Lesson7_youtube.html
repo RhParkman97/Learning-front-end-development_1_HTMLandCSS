@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<Title>
+  Lesson 7 - YouTube Clone
+</Title>
+
+<style>
+  .thumbnail { 
+    width: 300px;
+    /* Images have their own properties (we can set a fixed height
+        and width but will cause image to stretch/ squash */
+    height: 200px;
+    object-fit: cover; /* Avoids stretching/ squashing of images
+                           by croping (maintaining aspect ratio) */
+    object-position: center; /* Crops image from the center */
+  }
+
+  .search-bar {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+</style>
+
+  </head>
+
+  <body>
+    <img class="thumbnail" src="../Final Project (YouTube)/thumbnails/thumbnail-1.png">
+    
+    <input class="search-bar" type="textbox" placeholder="Search">
+  </body>
+</html>
+
+
+
