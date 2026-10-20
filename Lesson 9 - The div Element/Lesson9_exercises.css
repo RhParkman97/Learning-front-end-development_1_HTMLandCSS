@@ -1,0 +1,258 @@
+.red-square-9a {
+  height: 75px;
+  width: 75px;
+  
+  background-color: red; 
+}
+
+.green-circle-9b {
+  height: 75px;
+  width: 75px;
+  
+  background-color: rgb(0, 161, 0);
+  border-radius: 50%;
+}
+
+.division-9c {
+  height: 90px;
+  width: 270px;
+
+  padding-left: 7px;
+  padding-right: 7px;
+
+  border: solid;
+  border-width: thin;
+  border-color: rgb(180, 180, 180);
+}
+
+.division-9d {
+  height: 85px;
+  width: 285px;
+  
+  background-color: rgb(65, 65, 65);
+
+  padding-top: 7px;
+  padding-left: 15px;
+}
+
+.watch-youtube-9d {
+    font-family: roboto, sans-serif;
+    font-size: 20px;    
+    color: white;
+
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.youtube-text-9d {
+    font-family: roboto, sans-serif;    
+    color: rgb(200, 200, 200);
+
+    font-size: 12px;
+
+    padding-right: 10px;
+}
+
+.twitter-exercise-9e {
+  display: flex;
+
+  height: 50px;
+  width: 500px;
+
+  border: solid;
+  border-color: rgba(160, 160, 160, 0.25);
+  border-radius: 15px;
+
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  justify-content: center;
+}
+
+.cat-profile-picture {
+  display: inline-block;
+  
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+
+  border-radius: 100%;
+  
+  margin-top: 7px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+.post-message {
+  display: inline-block;
+  
+  height: 25px;
+  width: 365px;
+
+  border: none;
+
+  margin-top: 11px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+
+  font-family: roboto, sans-serif;
+  color: rgb(145, 145, 145);
+  font-size: 13px;
+
+}
+
+.tweet-button {
+  display: inline-block;
+
+  height: 30px;
+  width: 60px;
+  
+  background-color: rgb(40, 182, 255);
+  color: white;
+  
+  font-family: roboto, sans-serif;
+  font-size: 15.5px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 15px; 
+  
+  margin-top: 9px;
+}
+
+.challange-exercises {
+    color: rgb(207, 2, 2);
+}
+
+.exercise-9f, .exercise-9g {
+  display: inline-block;
+  
+  height: 200px;
+  width: 130px;
+  
+  border: none;
+  /* border-color: rgba(120, 120, 120, 0.2);
+  border-width: thin; */
+  box-shadow: 0px 0px 5px rgba(120, 120, 120, 0.35);
+
+  justify-content: middle;
+
+  margin-left: 10px;
+}
+
+.cat-thumbnail {
+  display: block;
+  
+
+  height: 100px;
+  width: 130px;
+
+  object-fit: cover;
+}
+
+.cat-name {
+  display: block;
+
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  
+  margin-top: 15px;
+  margin-bottom: 5px;  
+  padding-left: 7px;
+}
+
+.mutual-friends {
+  display: block;
+  
+  font-family: Arial, sans-serif;
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  
+  margin-top: 0px;
+  margin-bottom: 10px;  
+  padding-left: 7px;
+}
+
+.add-friend-button {
+  height: 30px;
+  width: 70px;
+  
+  background-color: rgb(5, 150, 225);
+  color: white;
+  
+  font-family: roboto, sans-serif;
+  font-size: 11px;
+
+  border: none;
+  border-radius: 10px;
+
+  margin-left: 7px;
+}
+
+.cat-thumbnail-top {
+  display: block;
+  
+  height: 100px;
+  width: 130px;
+
+  object-fit: cover;
+  object-position: top;
+}
+
+.google-search-bar-9h {
+  height: 500px;
+  width: 700px;
+
+  display: inline-block;
+  text-align: center; /* centres inline content, like buttons */
+
+  margin-left: 20px;
+}
+
+.google-logo {
+  display: block;
+  margin: 0 auto; /* horizontal centre */
+
+  height: 100px;
+  width: 200px;
+
+  object-fit: contain;
+
+  margin-bottom: 0px;
+}
+
+.google-search-box {
+  display: block;
+  margin: 0 auto; /* horizontal centre */
+
+  height: 25px;
+  width: 400px;
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(120, 120, 120, 0.35);
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  padding-left: 13px;
+}
+
+.google-search, .im-feeling-lucky {
+  height: 25px;
+  width: 110px;
+
+  background-color: rgb(240, 240, 240);
+
+  border: none;
+
+  font-size: 10px;
+
+  margin-top: 15px;
+  margin-right: 10px;
+}
