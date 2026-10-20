@@ -26,7 +26,7 @@ This repository documents my progress as I build a solid foundation in front-end
 | 6 |           Styling Text           |                   Fonts, sizes, weights, `line-height`, HTML entities, `span` and text elements                |   ✅    |
 | 7 |          HTML Structure          |           `<!DOCTYPE>`, `html`/`head`/`body`, Live Server, separate CSS files, file paths, Google Fonts        |   ✅    |
 | 8 |         Images & Inputs          |                                  `<img>`, `object-fit`, `<input>`, placeholders                                |   ✅    |
-| 9 |       The Display Property       |                                     Block, inline-block and inline elements                                    |   ⏳    |
+| 9 |       The Display Property       |                                     Block, inline-block and inline elements                                    |   ✅    |
 | 10 |        The Div Element          |                                      Using divs as containers for layout                                       |   ⏳    |
 | 11 |     Nested Layouts Technique    |                                  Breaking designs into vertical and horizontal layouts                         |   ⏳    |
 | 12 |           CSS Grid              |                              `grid-template-columns`, `fr` units, `column-gap`, `row-gap`                      |   ⏳    |
