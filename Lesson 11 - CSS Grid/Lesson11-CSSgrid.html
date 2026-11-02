@@ -1,0 +1,176 @@
+<!-- 
+    CSS Grid 
+
+    In previous lessons we've been using properties like width (and 
+    inline-block) to structure our elements on the web page.
+    
+    This is inefficient way of structuring the page (especcially when
+    aligning elements together).
+
+    ** CSS grid can overcome this problem and is a much more efficienct 
+    method in structuring elements on a webpage!
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Lesson 11 - CSS Grid
+    </title>
+  </head>
+
+  <body style="padding-bottom: 750px;">
+    <div style=
+    "display: grid;
+    grid-template-columns: 100px 100px;"> <!-- creates a grid (1 row, 
+                                          2 columns) with each column 
+                                          being 100px wide! -->
+      <div style="background-color: lightblue;">
+        div 1
+      </div>
+
+      <div style="background-color: lightpink;">
+        div 2
+
+        <p>
+          text
+        </p>
+      </div>
+    </div>
+
+      <!-- 
+          Copied and pasted the same code underneath! continued to 
+            enhance the code!
+      -->
+
+    <div style=
+    "margin-top: 30px;
+     display: grid;
+     grid-template-columns: 100px 100px 200px;">
+      <div style="background-color: lightblue;">
+        div 3
+      </div>
+
+      <div style="background-color: lightpink;">
+        div 4
+
+        <p>
+          text
+        </p>
+      </div>
+
+      <div style="background-color: greenyellow;">
+        div 5
+      </div>
+
+      <div style="background-color: red">
+        div 6
+      </div>
+    </div>
+
+    <!-- 
+        New grid (next practice exercise!)
+    -->
+
+    <div style=
+    "margin-top: 30px;
+     display: grid;
+     grid-template-columns: 100px 1fr;">
+      <div style="background-color: lightblue;">
+        div 7
+      </div>
+
+      <div style=
+      "background-color: rgb(0, 202, 0);
+      color: white;">
+        div 8 (1fr)
+      </div>
+    </div>
+
+    <div style=
+    "margin-top: 30px;
+     display: grid;
+     grid-template-columns: 100px 1fr 1fr;">
+      <div style=
+      "background-color: blue;
+      color: white;">
+        div 9
+      </div>
+
+      <div style=
+      "background-color: rgb(0, 255, 0);
+      color: white;">
+        div 10 (1fr)
+      </div>
+
+      <div style=
+      "background-color: rgb(255, 0, 221);
+      color: rgb(20, 120, 250)">
+        div 11 (1fr)
+      </div>
+    </div>
+
+    <div style=
+    "margin-top: 30px;
+     display: grid;
+     grid-template-columns: 2fr 1fr;">  <!--   **fr = Free Space             -->
+      <div style=
+      "background-color: rgb(255, 50, 50);
+      color: rgb(2, 158, 2);">
+        div 12 (2fr)
+      </div>
+
+      <div style=
+      "background-color: rgb(2, 158, 2);
+      color: rgb(255, 50, 50)">
+        div 13 (1fr)
+      </div>
+
+      <!-- 
+          Notice how 2f is twice as wide as 1fr (works as ratio when
+            placed on the same row!)
+      -->
+      
+    </div>
+
+      <!-- 
+          Last practice example
+          * How to put 3 video previews (YouTube Example) into 
+            your webpage!
+      -->
+
+    <div style=
+    "margin-top: 30px;
+     display: grid;
+     grid-template-columns: 300px 300px 300px;
+     justify-content: center;
+    align-items: center;
+    text-align: center;">
+      <div style=
+      "background-color: rgb(220, 220, 220);
+      color: blue;
+      margin-right: 25px;
+      height: 200px;">
+        Video 1
+      </div>
+
+      <div style=
+      "background-color: rgb(150, 150, 150);
+      color: lightblue;
+      margin-right: 25px;
+      height: 200px;"">
+        Video 2 
+      </div>
+      <div style=
+      "background-color: rgb(220, 220, 220);
+      color: blue;
+      margin-right: 25px;
+      height: 200px;"">
+        Video 3
+      </div>
+    </div>
+  </body>
+</html>
+

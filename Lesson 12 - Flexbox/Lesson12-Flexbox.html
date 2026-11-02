@@ -1,0 +1,218 @@
+<!-- 
+      
+  Lesson 12 - Flexbox
+  https://www.youtube.com/watch?v=JJSoEo8JSnc
+
+  This is a simple example of using Flexbox to create a 
+  responsive layout.
+
+  -->
+
+  <!--
+  
+  Using Flexbox to create the header of Youtube (example) page!
+
+  -->
+
+<!-- 
+
+  Flexbox is similar to CSS Grid, but it is more flexible and 
+  easier to use.
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Lesson 12 - Flexbox
+    </title>
+
+  </head>
+
+  <body>
+    <div style="
+    display: flex;
+    flex-direction: row;">
+      <div style="background-color: lightblue;">
+        div1 horizontal
+      </div>
+      
+      <div style="background-color: lightpink;">
+        div2
+
+        <p>
+          vertical
+        </p>
+      </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;">
+      <div 
+      style="background-color: lightblue;
+      width: 100px;">
+        100px
+      </div>
+      
+      <div style="
+      background-color: lightpink;
+      flex: 1;">
+        flex: 1
+      </div>
+    </div>
+
+<!-- 
+
+      Important note:
+
+      * Grid = rigid layout
+      * Flexbox = flexible layout
+
+    ** Use flexbox when elements of a webpage may change 
+      (eg. more tiles appear after logging in to account - YouTube!)
+
+-->
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;">
+      <div 
+      style="background-color: lightgreen;
+      flex: 1;">
+        flex: 1
+      </div>
+      
+      <div style="
+      background-color: rgb(4, 209, 236);
+      width: 100px;
+      color: white;">
+        100px
+      </div>
+
+      <div style="
+      flex: 2;
+      background-color: blueviolet;
+      color: white;">
+        flex: 2
+      </div>
+    </div>  
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: end;">
+      <div 
+      style="background-color: lightpink;
+      width: 100px;">
+        100px
+      </div>
+        
+      <div style="
+      background-color: lightblue;
+      width: 100px;">
+        100px
+      </div>
+
+      <div style="
+      background-color: lightpink;
+      width: 100px;">
+        100px
+      </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: center;">
+      <div 
+      style="background-color: lightblue;
+      width: 100px;">
+        100px
+      </div>
+        
+      <div style="
+      background-color: lightpink;
+      width: 100px;">
+        100px
+      </div>
+
+      <div style="
+      background-color: lightblue;
+      width: 100px;">
+        100px
+      </div>
+    </div>
+
+      <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: space-between;">
+      <div 
+      style="background-color: lightpink;
+      width: 100px;">
+        100px
+      </div>
+        
+      <div style="
+      background-color: lightblue;
+      width: 100px;">
+        100px
+      </div>
+
+      <div style="
+      background-color: lightpink;
+      width: 100px;">
+        100px
+      </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: start;
+    align-items: start;">
+      <div 
+      style="background-color: lightblue;
+      width: 100px;">
+        100px
+      </div>
+        
+      <div style="
+      background-color: lightpink;
+      width: 100px;">
+        100px
+      </div>
+
+      <div style="
+      background-color: lightblue;
+      width: 100px;">
+        100px
+      </div>
+    </div>
+
+  </body>
+</html>
