@@ -27,9 +27,9 @@ This repository documents my progress as I build a solid foundation in front-end
 | 7 |          HTML Structure          |           `<!DOCTYPE>`, `html`/`head`/`body`, Live Server, separate CSS files, file paths, Google Fonts        |   ✅    |
 | 8 |         Images & Inputs          |                                  `<img>`, `object-fit`, `<input>`, placeholders                                |   ✅    |
 | 9 |       The Display Property       |                                     Block, inline-block and inline elements                                    |   ✅    |
-| 10 |        The Div Element          |                                      Using divs as containers for layout                                       |   ⏳    |
-| 11 |     Nested Layouts Technique    |                                  Breaking designs into vertical and horizontal layouts                         |   ⏳    |
-| 12 |           CSS Grid              |                              `grid-template-columns`, `fr` units, `column-gap`, `row-gap`                      |   ⏳    |
+| 10 |        The Div Element          |                                      Using divs as containers for layout                                       |   ✅    |
+| 11 |     Nested Layouts Technique    |                                  Breaking designs into vertical and horizontal layouts                         |   ✅    |
+| 12 |           CSS Grid              |                              `grid-template-columns`, `fr` units, `column-gap`, `row-gap`                      |   ✅    |
 | 13 |           Flexbox               |                    `justify-content`, `align-items`, `flex`, `flex-direction`, building the header             |   ⏳    |
 | 14 |         CSS Position            |                         `fixed`, `absolute`, `relative`, `z-index`, sticky header and sidebar                  |   ⏳    |
 | 15 |     Finishing the Project       |                                     Sidebar, resizing videos, hover tooltips                                   |   ⏳    |
