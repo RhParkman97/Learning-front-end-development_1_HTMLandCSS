@@ -1,0 +1,325 @@
+.grid-13a {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 40px;
+
+}
+
+.element-1-13a, .element-1-13b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(242, 177, 185);
+}
+
+.text-13a {
+  background-color: black;
+  color: white;
+}
+
+.element-2-13a {
+  display: inline-block;
+  background-color: rgb(223, 243, 255);
+}
+
+.flexbox-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.element-1-13b {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  height: 60px;
+  width: 100px;
+}
+
+.column-left-13b {
+  display: block;
+  justify-content: start;
+  align-items: start;
+  width: 50%;
+  margin: 0;
+}
+
+.element-2-13b {
+  display: flex;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(223, 243, 255);
+  margin: 0px;
+}
+
+.column-right-13b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  align-items: end;
+  width: 50%;
+}
+
+.row1-13b {
+  display: flex;
+  justify-content: start;
+  align-items: top;
+  margin: 0px;
+  margin-top: 2px
+}
+
+.row2-13b {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 20px;
+  background-color: black;
+  color: white;
+  margin: 0px
+}
+
+.challange-text {
+  color: rgb(190, 10, 10);
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.gmail-ios-13c, .gmail-ios-13e {
+  display: block;
+  border: solid;
+  height: 130px;
+  width: 415px;
+  border-color: rgb(200, 200, 200);
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px 1px rgb(230, 230, 230);
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.all-inboxes-topper-13c, .all-inboxes-topper-13e {
+font-family: Arial, sans-serif;
+color: rgb(160, 160, 160);
+font-size: 15px;
+margin: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 15px;
+}
+
+.email-preview-grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.sender-image-13c, .sender-image-13e {
+  justify-self: center;
+  align-self: center;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+}
+
+.sender-title-13c, .time-13c, .subject-line-13c, .email-message-preview-13c, .sender-title-13e, .time-13e, .subject-line-13e, .email-message-preview-13e {
+  font-family: Arial;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.email-details-top-13c, .email-details-top-13e {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.time-13c, .time-13e {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 13.25px;
+  color: rgb(130, 130, 130);
+  }  
+  
+.subject-line-13c, .subject-line-13e {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.sender-title-13c, .sender-title-13e {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.email-message-preview-13c, .email-message-preview-13e {
+  font-size: 14px;
+  color:rgb(130, 130, 130)
+}
+
+.container-13d {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  font-family: Arial;
+}
+
+.inbox-label-13d {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+  margin-bottom: 20px;
+}
+
+.email-13d {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sender-picture-13d {
+  margin-right: 10px;
+}
+
+.sender-picture-13d {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+
+.email-content-13d {
+  flex: 1;
+}
+
+.email-header-13d {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.sender-name-13d {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.send-time-13d {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subject-13d {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-13d {
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+}
+
+.gmail-ios-13e {
+  height: 325px;
+}
+
+.email-message-preview-13e {
+  margin-bottom: 20px;
+}
+
+.container-tweet-13g {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Arial;
+}
+
+.section1-image-13g {
+  margin-right: 10px;
+}
+
+.image-13g {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: none;
+  border-radius: 50%;
+}
+
+.section2-details-13g {
+  flex: 1;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.tweet-header-13g {
+display: flex;
+}
+
+.tweet-author-13g {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-right: 7px;
+}
+
+.tweet-author-handle {
+  display: flex;
+  color: rgb(140, 140, 140);
+  font-size: 17px;
+}
+
+.tweet-content {
+  font-size: 16px;
+}
+
+.section3-video-preview-13g {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+  margin-left: 70px;
+}
+
+.video-thumbnail {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.video-details-13g {
+  height: 100px;
+}
+
+.video-website {
+  font-size: 17px;
+  color: rgb(111, 111, 111);
+  margin-top: 17px;
+  margin-bottom: 3px;
+}
+
+.video-details {
+  font-size: 17px;
+  line-height: 22px;
+}

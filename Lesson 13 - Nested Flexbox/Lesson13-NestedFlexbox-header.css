@@ -1,0 +1,145 @@
+body {
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+
+}
+
+.left-section {
+  display: flex;
+  width: 250px;
+  justify-content: left;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: flex;
+  height: 22px;
+  width: 22px;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.youtube-logo {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 90px;
+  margin-left: 20px;
+
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  justify-content: left;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  height: 40px;
+  border: solid;
+  border-color: rgb(204, 204, 204);
+  border-width: 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  border-width: 1px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+
+.search-bar:hover {
+  border-color: rgb(3, 173, 88);
+}
+
+.search-bar:active {
+  border-color: rgb(0, 130, 252);
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 64px;
+  background-color: rgb(247, 247, 247);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -1px;
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, arial;
+  font-size: 16px;
+  padding-left: 12px;
+}
+
+.search-button-image {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+
+.voice-search-button {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(247, 247, 247);
+  border: none;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.voice-search-button-image {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+
+.right-section {
+  display: flex;
+  width: 250px;
+  justify-content: right;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: zero;
+}
+
+.create-button, .youtube-apps-button, .notifications-button, .user-channel-button {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.create-image, .youtube-apps-image, .notifications-image {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+
+.user-channel-image {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+}

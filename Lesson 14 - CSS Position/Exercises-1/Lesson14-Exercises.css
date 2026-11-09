@@ -1,0 +1,32 @@
+.fixed-element-14a {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+}
+
+.right-sidebar-14b {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  background-color: green;
+  color: white;
+}
+
+.note-14c {
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.fixed-element-14c {
+  position: fixed;
+  top: 150px;
+  bottom: 50px;
+  right: 110px;
+  left: 0;
+  background-color: rgba(247, 103, 191, 0.7);
+}

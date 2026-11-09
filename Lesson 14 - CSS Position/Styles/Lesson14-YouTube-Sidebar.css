@@ -1,0 +1,18 @@
+.sidebar {
+position: fixed;
+top: 68px;
+left: 0px;
+bottom: 0px;
+width: 72px;
+padding-top: 10px;
+
+background-color: rgb(163, 255, 163);
+}
+
+.sidebar-home-icon, .sidebar-explore-icon {
+  display: block;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  margin: 0 auto 10px;
+}
