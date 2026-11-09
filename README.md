@@ -16,24 +16,26 @@ This repository documents my progress as I build a solid foundation in front-end
 
 ## 🗂️ Lessons & Projects
 
-| # |              Lesson              |                                                    Key Topics                                                  |  Status  |
-| - |            ----------            |                                                    ------------                                                |   ----   |
-| 1 |            HTML basics           |              HTML elements, tags and syntax, attributes (`href`, `target`), whitespace and indentation         |   ✅    |
-| 2 |            CSS basics            |                 Selectors, properties and values, classes, colors (RGB), `border-radius`, `cursor`             |   ✅    |
-| 3 |    Hover, Transitions & Shadows  |                      `:hover` and `:active`, `opacity`, `transition`, `box-shadow`, `rgba`                     |   ✅    |
-| 4 |          Chrome DevTools         |                         Inspecting HTML and CSS, computed styles, copying exact colors                         |   ✅    |
-| 5 |         The CSS Box Model        |                                 `margin`, `padding`, `border`, `vertical-align`                                |   ✅    |
-| 6 |           Styling Text           |                   Fonts, sizes, weights, `line-height`, HTML entities, `span` and text elements                |   ✅    |
-| 7 |          HTML Structure          |           `<!DOCTYPE>`, `html`/`head`/`body`, Live Server, separate CSS files, file paths, Google Fonts        |   ✅    |
-| 8 |         Images & Inputs          |                                  `<img>`, `object-fit`, `<input>`, placeholders                                |   ✅    |
-| 9 |       The Display Property       |                                     Block, inline-block and inline elements                                    |   ✅    |
-| 10 |        The Div Element          |                                      Using divs as containers for layout                                       |   ✅    |
-| 11 |     Nested Layouts Technique    |                                  Breaking designs into vertical and horizontal layouts                         |   ✅    |
-| 12 |           CSS Grid              |                              `grid-template-columns`, `fr` units, `column-gap`, `row-gap`                      |   ✅    |
-| 13 |           Flexbox               |                    `justify-content`, `align-items`, `flex`, `flex-direction`, building the header             |   ✅    |
-| 14 |         CSS Position            |                         `fixed`, `absolute`, `relative`, `z-index`, sticky header and sidebar                  |   ✅    |
-| 15 |     Finishing the Project       |                                     Sidebar, resizing videos, hover tooltips                                   |   ⏳    |
-| 16 |        More Useful CSS          | Responsive design (media queries), shorthand properties, inheritance, specificity, semantic elements, comments |   ⏳    |
+| # |              Lesson              |                                                    Key Topics                                                     |  Status  |
+| - |            ----------            |                                                    ------------                                                   |   ----   |
+| 1 |            HTML basics           |               HTML elements, tags and syntax, attributes (`href`, `target`), whitespace and indentation           |   ✅    |
+| 2 |            CSS basics            |                  Selectors, properties and values, classes, colors (RGB), `border-radius`, `cursor`               |   ✅    |
+| 3 |    Hover, Transitions & Shadows  |                       `:hover` and `:active`, `opacity`, `transition`, `box-shadow`, `rgba`                       |   ✅    |
+| 4 |          Chrome DevTools         |                          Inspecting HTML and CSS, computed styles, copying exact colors                           |   ✅    |
+| 5 |         The CSS Box Model        |                                  `margin`, `padding`, `border`, `vertical-align`                                  |   ✅    |
+| 6 |           Styling Text           |                    Fonts, sizes, weights, `line-height`, HTML entities, `span` and text elements                  |   ✅    |
+| 7 |          HTML Structure          |            `<!DOCTYPE>`, `html`/`head`/`body`, Live Server, separate CSS files, file paths, Google Fonts          |   ✅    |
+| 8 |         Images & Inputs          |                                   `<img>`, `object-fit`, `<input>`, placeholders                                  |   ✅    |
+| 9 |       The Display Property       |                                      Block, inline-block and inline elements                                      |   ✅    |
+| 10 |        The Div Element          |                                       Using divs as containers for layout                                         |   ✅    |
+| 11 |     Nested Layouts Technique    |                                   Breaking designs into vertical and horizontal layouts                           |   ✅    |
+| 12 |           CSS Grid              |                               `grid-template-columns`, `fr` units, `column-gap`, `row-gap`                        |   ✅    |
+| 13 |           Flexbox               |                     `justify-content`, `align-items`, `flex`, `flex-direction`, building the header               |   ✅    |
+| 14 |         CSS Position            |                          `fixed`, `absolute`, `relative`, `z-index`, sticky header and sidebar                    |   ✅    |
+| 15 |  Position Absolute and Relative | position: absolute, relative & static, z-index, fixed & relative placed elements, container structure and placing |   ⏳    |
+| 16 |     Finishing the Project       |                                      Sidebar, resizing videos, hover tooltips                                     |   ⏳    |
+| 17 |        More Useful CSS          |  Responsive design (media queries), shorthand properties, inheritance, specificity, semantic elements, comments   |   ⏳    |
+
 
 *More lessons and projects will be added as I progress through the course.*
 
