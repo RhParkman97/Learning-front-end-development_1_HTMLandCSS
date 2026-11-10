@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Lesson 15 - Position Absolute and Relative
+    </title>
+
+  </head>
+
+  <body style="
+  height: 3000px;
+  padding-top: 50px;
+  padding-left: 50px;">
+    <div style="
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;">
+      header
+    </div>
+
+      <div style="
+      background-color: lightblue;
+      height: 200px;
+      width: 200px;
+      position: static;
+      margin-left: 70px;
+      
+      position: relative;
+      ">
+        div1
+
+        <div style="
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        background-color: black;
+        color: white;
+        padding: 2px;
+        ">
+        5:00  
+      </div>
+    </div>
+
+    <div style="
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    margin-left: 70px;
+
+    position: relative;
+    ">
+      div2
+
+      <div style="
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background-color: green;
+      color: yellow;">
+        absolute3
+      </div>
+    </div>
+
+    <div style="
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 105px;
+    ">
+      sidebar
+
+      <div style="
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background-color: white;
+      color: red;">
+        absolute2
+      </div>
+
+      <button style="
+      position: absolute;
+      top: 0;
+      right: 0;
+      ">
+        Close
+      </button>
+    </div>
+
+    <!--
+    
+      New to Lesson 15!
+
+        Position fixed - Fixes element to the browser 
+          window (which doesn't move when scrolling)!
+
+        Position absolute - Fixes element to the page
+          (which moves when scrolling!)
+
+        -> Useful to organise work (you can structure
+           page without writing code in order!)
+
+        ** Also important when putting a position absolute
+            bar within a position relative bar (as the 
+            positioning attributes [top, bottom, left, 
+            right] will be relative to the parent position.
+            NOT the overall page position) -> easier to 
+            organise/ structure!
+
+      z-index: positioning elements in-front/ behind 
+                each other (on the z axis)!
+
+        Close button example (to close sidebar) above!
+    
+    -->
+
+    <div style="
+    position: absolute;
+    top: 50px;
+    right: 100px;
+
+    background-color: red;
+    color: white;">
+      absolute
+    </div>
+
+    <div style="
+    position: absolute;
+    top: 60px;
+    right: 39px;
+    background-color: rgb(158, 59, 252);
+    color: turquoise;
+
+    z-index: -1;
+    ">
+      z-index (-1)
+    </div>
+
+<!--
+    
+      Position relative - manipulates an element position
+          on a page, without changing the other elements. 
+
+      We've adapted the div2 element (changing position
+       property to relative!) + absolute3 element
+
+      ** When a position absoulte element is placed within
+        a position relative element its positional properties
+        will use its parent container (not the page 
+        i.e. top: 50px [50 px from the top of div2 element]
+            right: 10 px [10 px from right of div2 element]!)
+      
+      * YouTube example - each video preview (thumbnail 
+          image and details) use position relative property 
+          and the video length/ time uses absolute position
+          within the image element.
+
+      "video length/ time" example within div1 element!
+          -> note to self - didn't work until I defined
+              the div1 position to relative!          
+-->
+
+
+  </body>
+</html>

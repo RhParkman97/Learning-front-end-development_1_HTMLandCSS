@@ -1,0 +1,74 @@
+body {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+}
+
+.challange-exercise-title {
+  color: rgb(160, 0, 0);
+}
+
+.clothing-preview {
+  position: relative;
+  height: 400px;
+  width: 330px;
+  object-fit: cover;
+}
+
+.clothing-thumbnail {
+  height: 100%;
+  width: 100%;
+}
+
+.discount-message {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: white;
+  background-color: rgb(0, 90, 0);
+  border: solid;
+  border-color: yellow;
+  border-style: dashed;
+  border-width: 2px;
+  padding: 7px;
+}
+
+.add-to-cart-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.add-to-cart-button {
+height: 40%;
+width: 40%;
+font-size: 15px;
+border: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 3px;
+}
+
+.add-to-cart-button:hover {
+  background-color: gray;
+  color: white;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.add-to-cart-button:active {
+  background-color: yellow;
+  color: green;
+  border: solid;
+  border-color: green;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 3px;
+}
