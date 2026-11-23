@@ -32,8 +32,8 @@ This repository documents my progress as I build a solid foundation in front-end
 | 12 |           CSS Grid              |                               `grid-template-columns`, `fr` units, `column-gap`, `row-gap`                        |   ✅    |
 | 13 |           Flexbox               |                     `justify-content`, `align-items`, `flex`, `flex-direction`, building the header               |   ✅    |
 | 14 |         CSS Position            |                          `fixed`, `absolute`, `relative`, `z-index`, sticky header and sidebar                    |   ✅    |
-| 15 |  Position Absolute and Relative | position: absolute, relative & static, z-index, fixed & relative placed elements, container structure and placing |   ⏳    |
-| 16 |     Finishing the Project       |                                      Sidebar, resizing videos, hover tooltips                                     |   ⏳    |
+| 15 |  Position Absolute and Relative | position: absolute, relative & static, z-index, fixed & relative placed elements, container structure and placing |   ✅    |
+| 16 |     Finishing the Project       |                                      Sidebar, resizing videos, hover tooltips                                     |   ✅    |
 | 17 |        More Useful CSS          |  Responsive design (media queries), shorthand properties, inheritance, specificity, semantic elements, comments   |   ⏳    |
 
 
