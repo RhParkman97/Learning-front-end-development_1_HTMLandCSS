@@ -1,0 +1,347 @@
+body {
+  height: 3000px;
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding-left: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.additional-instructions-16c {
+  font-style: italic;
+  margin-top: 0;
+  padding-left: 55px;
+  color: gray;
+  margin-top: -20px;
+
+}
+
+.youtube-header-16a, .youtube-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  padding-bottom: 10px;
+  border-bottom: solid;
+  border-bottom-color: rgb(222, 222, 222);
+  border-bottom-width: 1px;
+}
+
+.youtube-header-16a {
+  background-color: rgb(230, 255, 255);
+  border-bottom: none;
+}
+
+.left-section, .left-section-16a {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 25%;
+  margin: 2px;
+  margin-right: 5px;
+}
+
+.left-section-16a {
+  background-color: rgb(240, 255, 217);
+}
+
+.hamburger-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  object-fit: contain;
+  padding-left: 10px;
+  margin-right: 15px;
+
+}
+
+.youtube-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  margin-right: 20px;
+}
+
+.middle-section, .middle-section-16a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.search-box {
+  display: flex;
+  height: 32px;
+  width: 50%;
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-box::placeholder {
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 47px;
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+  margin-left: -1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+}
+
+.search-button-icon {
+  width: 60%;
+}
+
+.voice-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding: 3px;
+}
+
+.voice-search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 34px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 50%;
+  border: none;
+}
+
+.voice-search-icon {
+  height: 80%;
+  width: 80%;
+}
+
+.right-section, .right-section-16a {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 25%;
+  margin: 2px;
+  margin-right: 5px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.right-section-16a {
+  background-color: rgb(255, 234, 234);
+}
+
+.youtube-apps-container, .youtube-notifications-container, .youtube-user-channel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.youtube-apps-button, .youtube-notifications-button, .youtube-user-channel-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 34px;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+}
+
+.youtube-apps-icon, .youtube-notifications-icon {
+  height: 80%;
+  width: 80%;
+}
+
+.youtube-user-channel-icon {
+  height: 34px;
+  width: 34px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.hamburger-menu:hover, .youtube-logo:hover,
+.search-button:hover, .voice-search-button:hover,
+.youtube-apps-icon:hover, .youtube-notifications-icon:hover,
+.youtube-user-channel-icon:hover {
+  cursor: pointer;
+}
+
+.video-preview-section {
+  background-color: rgb(249, 249, 249);
+  padding-top: 15px;
+
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  padding: 15px;
+}
+
+@media (max-width: 750px) {
+  .video-preview-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-preview-section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-preview-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-preview-container {
+  box-sizing: border-box;
+}
+
+.video-thumbnail-row{
+  position: relative;
+}
+
+.video-thumbnail-image{
+  width:100%;
+}
+.video-thumbnail-time {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  padding: 6px;
+}
+
+.video-details-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+
+.video-author-picture {
+  position: relative;
+  display: inline-block;
+  justify-self: center;
+  justify-content: center;
+  align-items: start;
+  padding-top: 10px; 
+}
+
+.channel-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  
+}
+
+.video-title, .video-author, .video-stats {
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+  margin: 3px;
+}
+
+.video-title, .talking-tech-link:link {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.talking-tech-link:visited {
+  color: rgb(0, 131, 22);
+}
+
+.talking-tech-link:hover {
+  color: rgb(2, 2, 175);
+}
+
+.video-author, .video-stats {
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+}
+
+.video-author-picture .tooltip {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 55px;
+  left: -17px;
+  opacity: 0;
+}
+
+.video-author-picture:hover .tooltip {
+  opacity: 1;
+}
+
+.tooltip-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 80px;
+  width: 240px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0.2px rgb(224, 224, 224);
+}
+
+.tooltip-author-picture {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.tooltip-author-title, .tooltip-author-subsribers-count {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+}
+
+.tooltip-author-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tooltip-author-subsribers-count {
+  color: rgb(135, 135, 135);
+  font-size: 14px;
+}
